@@ -1,0 +1,2 @@
+imageglass安装后不能打开图片：
+在设置中点击关联格式-取消注册-再点击注册即可成功，如果后续打开imageglass还有存在“幽灵”残留，那就去注册表删除即可，位置在：1.按 Win + R，输入 regedit，回车打开注册表编辑器。2.导航到这个路径： HKEY_CURRENT_USER\Software\Classes\Applications\3.在里面找到一个叫 ImageGlass.exe 的子项4.把指向旧路径的那个右键删除即可。
